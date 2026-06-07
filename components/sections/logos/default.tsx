@@ -81,7 +81,7 @@ export default function Logos({ className }: { className?: string }) {
             <div className="flex items-center justify-center hover:scale-105 transition-transform duration-300">
               <img 
                 src="https://h8z6stjynz.ufs.sh/f/nEev6VX4XfKEkjsjQpaHF5hwn3uCcqPm4ORVQJW8SBvgpL0A" 
-                alt="Devfolio" 
+                alt="DEVFOLIO LOGO" 
                 className="h-[20px] md:h-[27px] w-auto object-contain filter brightness-90 hover:brightness-100 transition-all duration-300"
               />
             </div>
