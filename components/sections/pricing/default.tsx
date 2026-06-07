@@ -122,11 +122,10 @@ export default function Pricing({
             description="Awarded to the second-highest scoring team."
             icon={<Award className="size-4 text-primary" />}
             features={[
-              "₹60,000 Cash Reward",
-              "Arcnight Silver Trophy",
+              "₹60,000 Worth Tech Credits and Prices",
               "Runner Up Certificates",
-              "HackerRank & Gemini Swag Kits",
-              "Access to Hackathon Community Directory",
+              "HackerRank & Gemini Exclusice Certificates",
+              "Access to MIC Outer Circle Community",
             ]}
             borderColor="border-border/20"
             glowColor="neon-border-cyan"
@@ -141,12 +140,11 @@ export default function Pricing({
             description="Awarded to the ultimate high-scorer project of the hackathon."
             icon={<Trophy className="size-5 text-brand-foreground" />}
             features={[
-              "₹1,00,000 Cash Reward",
-              "Arcnight Golden Trophy",
+              "₹1,00,000 Worth Tech Credits and Prices",
               "Winner Certificates",
-              "Exclusive HackerRank & Gemini Swags",
-              "Direct Interview & Mentorship Opportunities",
+              "Exclusive HackerRank & Gemini Certificates",
               "Featured on Arcnight Hall of Fame",
+              "Access to MIC Outer Circle Community",
             ]}
             borderColor="border-brand-foreground/30"
             glowColor="neon-border-amber shadow-[0_0_25px_rgba(255,176,0,0.15)]"
@@ -163,11 +161,10 @@ export default function Pricing({
             description="Awarded to the third-highest scoring team."
             icon={<Medal className="size-4 text-brand" />}
             features={[
-              "₹40,000 Cash Reward",
-              "Arcnight Bronze Trophy",
+              "₹40,000 Worth Tech Credits and Prices",
               "Second Runner Up Certificates",
-              "HackerRank & Gemini Swag Kits",
-              "Access to Hackathon Community Directory",
+              "HackerRank & Gemini Exclusice Certificates",
+              "Access to MIC Outer Circle Community",
             ]}
             borderColor="border-border/20"
             glowColor="neon-border-pink"

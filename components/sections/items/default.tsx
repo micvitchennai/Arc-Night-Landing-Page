@@ -27,13 +27,8 @@ interface ItemsProps {
 
 const DEFAULT_ITEMS: ItemProps[] = [
   {
-    title: "Retro Arcade Theme",
-    description: "Your design, UI, and aesthetics must reflect the retro arcade theme (8-bit, pixel art, neon, synthwave).",
-    icon: <Gamepad2 className="size-5 stroke-1 text-primary text-glow-cyan" />,
-  },
-  {
     title: "24-Hour Timeline",
-    description: "Design, code, and deploy strictly within the 24-hour hacking period starting June 13th, 10:00 AM.",
+    description: "Design, code, and deploy strictly within the 24-hour hacking period starting June 13th, 4:00 PM.",
     icon: <Clock className="size-5 stroke-1 text-brand text-glow-pink" />,
   },
   {
@@ -58,12 +53,12 @@ const DEFAULT_ITEMS: ItemProps[] = [
   },
   {
     title: "₹2 Lakhs Prize Pool",
-    description: "Top 3 teams win cash rewards. All participants who submit projects receive official certificates.",
+    description: "Top 3 teams win rewards. All participants who participate will receive official certificates.",
     icon: <Trophy className="size-5 stroke-1 text-primary text-glow-cyan" />,
   },
   {
     title: "24/7 Coordinator Help",
-    description: "Get assistance from our faculty & student coordinators anytime during the 24-hour hack.",
+    description: "Get assistance from our student coordinators and leads anytime during the 24-hour hack.",
     icon: <HelpCircle className="size-5 stroke-1 text-brand text-glow-pink" />,
   },
 ];
