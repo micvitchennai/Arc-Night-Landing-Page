@@ -37,7 +37,7 @@ npm run lint
   - Styled with a curated HSL violet, neon magenta, neon cyan, and amber color palette.
   - CRT screen scanline effects and an animated 3D perspective wireframe grid.
   - Glowing 8-bit text shadows configured globally.
-- ⏳ **Digital Countdown**: A client-side countdown timer ticking down to the launch on **Saturday, June 13, 2026, at 10:00 AM**.
+- ⏳ **Digital Countdown**: A client-side countdown timer ticking down to the launch on **Saturday, June 13, 2026, at 4:00 PM**.
 - 🪙 **Interactive Cabinet Console**: An interactive retro arcade cabinet. Clicking "INSERT COIN" transitions the console status and unlocks the **Apply with Devfolio** option inside the cabinet screen.
 - 🏆 **Prizes Podium**: A retro podium layout displaying the reward breakdown:
   - 🥇 **Gold (Champion)**: ₹1,00,000 + Swag & Goodies

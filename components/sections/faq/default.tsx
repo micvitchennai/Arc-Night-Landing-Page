@@ -86,7 +86,7 @@ export default function FAQ({
           {title}
         </h2>
         {items !== false && items.length > 0 && (
-          <Accordion type="single" collapsible className="w-full max-w-[800px] bg-card/40 border border-border/20 p-6 rounded-2xl neon-border-cyan">
+          <Accordion type="single" collapsible className="w-full decoration-nonemax-w-[800px] bg-card/40 border border-border/20 p-6 rounded-2xl neon-border-cyan">
             {items.map((item, index) => (
               <AccordionItem
                 key={item.value ?? item.question}

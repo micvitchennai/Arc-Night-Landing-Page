@@ -49,7 +49,7 @@ export default function CTA({
           </span>
           
           <div className="w-full flex justify-center py-2">
-            <DevfolioButton theme="dark" />
+            <DevfolioButton theme="dark-inverted" />
           </div>
 
           <p className="text-[10px] text-muted-foreground font-sans text-center max-w-[320px] leading-relaxed">

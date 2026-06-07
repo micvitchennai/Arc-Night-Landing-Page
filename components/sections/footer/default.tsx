@@ -30,7 +30,7 @@ interface FooterProps {
 }
 
 export default function FooterSection({
-  logo = <img src="/favicon.png" alt="MIC" className="size-6 object-contain animate-pulse" />,
+  logo = <img src="/favicon.png" alt="MIC" className="size-6 object-contain" />,
   name = "ARCNIGHT",
   columns = [
     {

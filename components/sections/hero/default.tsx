@@ -18,7 +18,7 @@ interface HeroProps {
 }
 
 function CountdownTimer() {
-  const targetDate = new Date("2026-06-13T10:00:00+05:30").getTime();
+  const targetDate = new Date("2026-06-13T16:00:00+05:30").getTime();
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
   const [mounted, setMounted] = useState(false);
 
@@ -101,12 +101,12 @@ function ArcadeConsole() {
         <div className="relative z-10 flex flex-col gap-3 font-retro text-lg md:text-2xl text-left leading-relaxed">
           {hacked ? (
             <div className="flex flex-col gap-3 text-glow-cyan text-primary font-arcade text-center py-6 md:py-8 items-center">
-              <span className="text-xl md:text-3xl animate-bounce">ACCESS GRANTED</span>
+              <span className="text-xl md:text-3xl">ACCESS GRANTED</span>
               <span className="text-[10px] md:text-xs tracking-widest text-brand-foreground text-glow-amber mt-1 uppercase">
                 Ready Player One
               </span>
               <div className="w-full flex justify-center mt-4">
-                <DevfolioButton theme="dark" />
+                <DevfolioButton theme="dark-inverted" />
               </div>
             </div>
           ) : (
