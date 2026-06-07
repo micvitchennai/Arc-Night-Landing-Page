@@ -12,15 +12,15 @@ export function DevfolioButton({
   theme = "dark",
 }: DevfolioButtonProps) {
   useEffect(() => {
-    const existingScript = document.getElementById("devfolio-sdk");
-    if (!existingScript) {
-      const script = document.createElement("script");
-      script.id = "devfolio-sdk";
-      script.src = "https://apply.devfolio.co/v2/sdk.js";
-      script.async = true;
-      script.defer = true;
-      document.body.appendChild(script);
-    }
+    const script = document.createElement("script");
+    script.src = "https://apply.devfolio.co/v2/sdk.js";
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
   }, []);
 
   return (
