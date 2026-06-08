@@ -8,7 +8,7 @@ interface DevfolioButtonProps {
 }
 
 export function DevfolioButton({
-  slug = "arcnight",
+  slug = "microcraft-arcnight",
   theme = "dark",
 }: DevfolioButtonProps) {
   useEffect(() => {
